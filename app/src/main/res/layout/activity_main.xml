@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.edison4mobile.callrecorder.MainActivity"
+    android:background="@color/common_google_signin_btn_text_dark_pressed"
+    android:layout_margin="6dp">
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="5">
+
+            <TextView
+                android:text="Enable Dropping"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/textView7"
+                android:textSize="24sp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                 />
+
+            <TextView
+                android:text="URL"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/textView"
+                android:textSize="24sp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                 />
+
+            <TextView
+                android:text="Storage"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/textView2"
+                android:textSize="24sp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                 />
+
+            <TextView
+                android:text="Clear Period"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/textView5"
+                android:textSize="24sp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                 />
+
+            <TextView
+                android:text="Upload Period"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/textView4"
+                android:textSize="24sp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="5">
+
+            <Switch
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/switch_dropping_call"
+                android:layout_weight="1" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/url_location"
+                android:layout_weight="1"
+                android:hint="https://www.com"
+                android:text="http://edison4mobile.kjbsoft.com/call_recorder/uploaded.php" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/spinner_storage_place"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/spinner_clear_period"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/spinner_upload_period"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="2dp"
+        android:weightSum="2">
+
+        <Button
+            android:text="Save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_button"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_button"
+            android:layout_weight="1" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

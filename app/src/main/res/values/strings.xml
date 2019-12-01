@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Call Recorder</string>
+
+    <string name="about_app"><![CDATA[
+<h1>Call Recorder
+</h1><br>
+Automatic Phone Call Recorder<br>
+<p><br>
+Is there something missing from this app? Please let us know!<br>
+<br>
+Come visit us on the web at: <a href="http://jlcsoftware.com">http://jlcsoftware.com</a><br>
+</p>
+<p><small>Credits:<br>
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div>Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+</small>
+]]></string>
+
+
+    <string name="press_back_again">"Press BACK once more to exit"</string>
+
+    <string name="notification_title">New Recording</string>
+    <string name="notification_text">A Phone Call has been Recorded.</string>
+    <string name="notification_more_text">Select to play</string>
+
+
+</resources>
